@@ -1,0 +1,22 @@
+{
+    "name": "yh",
+    "version": "1.0.0",
+    "description": "simple lobby cli",
+    "main": "index.js",
+    "bin": {
+        "yh": "./bin/cli.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": {
+        "name": "Cidy Chou",
+        "email": "cidychou@gmail.com"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "commander": "^7.2.0",
+        "download-git-repo": "^3.0.2"
+    }
+}
